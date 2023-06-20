@@ -2,8 +2,10 @@
 Lightweight PHP tool for geolocation and ASN lookup. Retrieves IP address details in JSON format using the trusted database from https://iptoasn.com/. Enhance your applications with accurate geolocation information and network insights effortlessly.
 
 
-https://ipinfo.example.com/?ip=1.1.1.1
 **Example Response:**
+```
+curl https://ipinfo.example.com/?ip=1.1.1.1
+```
 ```json
 {
     "ip": "1.1.1.1",
